@@ -12,6 +12,7 @@
 		1C4EE6341F72C56F00848F8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4EE6321F72C56F00848F8F /* Main.storyboard */; };
 		1C4EE6361F72C56F00848F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4EE6351F72C56F00848F8F /* Assets.xcassets */; };
 		1C4EE6391F72C56F00848F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C4EE6371F72C56F00848F8F /* LaunchScreen.storyboard */; };
+		1CD6A0651FB8987600BF61BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CD6A0641FB8987600BF61BF /* GoogleService-Info.plist */; };
 		A6902AED108B3501EC8894C1 /* Pods_ChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F962AC64854B9C0420C9D1A1 /* Pods_ChatApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		1C4EE6351F72C56F00848F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C4EE6381F72C56F00848F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C4EE63A1F72C56F00848F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CD6A0641FB8987600BF61BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F962AC64854B9C0420C9D1A1 /* Pods_ChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,6 +63,7 @@
 		1C4EE62D1F72C56F00848F8F /* ChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				1CD6A0641FB8987600BF61BF /* GoogleService-Info.plist */,
 				1C4EE62E1F72C56F00848F8F /* AppDelegate.swift */,
 				1C4EE6301F72C56F00848F8F /* ViewController.swift */,
 				1C4EE6321F72C56F00848F8F /* Main.storyboard */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C4EE6391F72C56F00848F8F /* LaunchScreen.storyboard in Resources */,
+				1CD6A0651FB8987600BF61BF /* GoogleService-Info.plist in Resources */,
 				1C4EE6361F72C56F00848F8F /* Assets.xcassets in Resources */,
 				1C4EE6341F72C56F00848F8F /* Main.storyboard in Resources */,
 			);
@@ -378,6 +382,7 @@
 				1C4EE63F1F72C56F00848F8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
